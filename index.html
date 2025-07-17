@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starz Bot</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://media.discordapp.net/attachments/933858923692318730/1395088761494442095/pngtree-smooth-glossy-heart-vector-file-ai-and-png-png-image_4557871.png?ex=68792d28&is=6877dba8&hm=356dc0555c0f154f53abfe92d345b5e6b250d779e1d0c0f00e97744d157a0735&=&format=webp&quality=lossless" type="image/png">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- SEO Description -->
+    <meta name="description" content="Starz is the most complete Discord bot: advanced moderation, ticket system, time tracking and invoicing. Total control and premium support for your community.">
+    <meta name="keywords" content="Discord, bot, moderation, tickets, time tracking, Starz, premium Discord bot, Discord support, Discord automation, professional bot">
+    <meta name="author" content="Starz Team">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Starz BOT — Advanced moderation and premium support for Discord">
+    <meta property="og:description" content="The most complete Discord bot: advanced control, tickets, time tracking and premium support. Boost your community with Starz.">
+    <meta property="og:image" content="https://Starzbot.net/Starz-logo.png">
+    <meta property="og:url" content="https://Starzbot.net/">  
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Starz BOT — Advanced moderation for Discord">
+    <meta name="twitter:description" content="The most complete and professional bot for Discord: total control and premium support.">
+    <meta name="twitter:image" content="https://Starzbot.net/Starz-logo.png">
+    <!-- Browser Theme -->
+    <meta name="theme-color" content="#ff3b3b">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://Starzbot.net/">  
+</head>
+<body style="min-height:100vh;display:flex;flex-direction:column;">
+<canvas id="starfield-bg" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;pointer-events:none;"></canvas>
+<div id="main-content" style="flex:1 0 auto;display:flex;flex-direction:column;">
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">
+      <img src="https://cdn.discordapp.com/attachments/933858923692318730/1394154010591625298/Diseno_sin_titulo_1-Photoroom.png?ex=6875c69a&is=6874751a&hm=6cb4c9ec9a7da45bcdeb61dd22f71bbd9a155d10a7fee30bc8d18922a673ca03&" alt="Starz Logo" style="height: 40px; vertical-align: middle;">
+      <span class="emoji"></span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#inicio">Home</a></li>
+        <li><a href="#team">Staff Team</a></li>
+        <li><a href="#precios">Pricing</a></li>
+    </ul>
+    <a href="https://discord.com/oauth2/authorize?client_id=1361466527836147902&permissions=8&integration_type=0&scope=bot+applications.commands" class="invite-btn" target="_blank">🤖 Invite Starz</a>
+</nav>
+<!-- Header -->
+<header id="inicio" class="header">
+    <h1>Full <span>control </span>with smart, powerful tools.</h1>
+    <p>Easily manage and grow your community with Starz’s powerful features.</p>
+    <div class="btn-container">
+        <a href="https://discord.gg/rPrfsnx5at" class="btn primary" target="_blank">💬 Join the discord</a>
+        <a href="#features" class="btn secondary">📖 View Features</a>
+    </div>
+</header>
+<!-- Feature Cards Section -->
+<section class="features" id="features">
+    <div class="cards">
+        <div class="card">
+            <h3>Moderation</h3>
+            <p class="description">Automate server management with powerful moderation tools and keep your community safe.</p>
+            <ul>
+                <li>❤️ Anti-raid & anti-spam</li>
+                <li>❤️ Customizable permissions</li>
+                <li>❤️ Instant actions</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Ticket System</h3>
+            <p class="description">Manage support requests efficiently with customizable tickets and interactive tools.</p>
+            <ul>
+                <li>❤️ Easy ticket creation</li>
+                <li>❤️ Organized support</li>
+                <li>❤️ Notifications</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Administration</h3>
+            <p class="description">Streamline server management with tools to easily control roles, channels, and settings.</p>
+            <ul>
+                <li>❤️ User & staff logs</li>
+                <li>❤️ Activity reports</li>
+                <li>❤️ Custom intervals</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Security</h3>
+            <p class="description">Secure your server with tools to prevent raids, spam, and unauthorized actions.</p>
+            <ul>
+                <li>❤️ Priority help</li>
+                <li>❤️ Fast updates</li>
+                <li>❤️ Direct contact</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Feedback Section -->
+<section class="feedback-section">
+  <h2 class="feedback-title">Users Feedbacks!</h2>
+  <div class="feedback-cards">
+    <div class="feedback-card">
+      <div class="feedback-user">
+        <img src="https://media.discordapp.net/attachments/1361467733614792805/1395194025253797948/6efccd0d4db7ade2ec75843f3d0f757f.jpg?ex=68798f31&is=68783db1&hm=9d3dc1d43ed452ef73e39ae64bc791bd91dda127cc70dbef567bf2626f07d3ab&=&format=webp&width=540&height=960" alt="Avatar" class="feedback-avatar">
+        <div>
+          <span class="feedback-name">@lonely</span>
+          <span class="feedback-role">Starz User</span>
+        </div>
+      </div>
+      <p class="feedback-text">"Los tickets andan joya y la moderación me ahorra banda de tiempo."</p>
+    </div>
+    <div class="feedback-card">
+      <div class="feedback-user">
+        <img src="https://media.discordapp.net/attachments/1361467733614792805/1395195585644200087/660365fd56fb6376acb36ced751d1aff.jpg?ex=687990a5&is=68783f25&hm=ef5e77694db7955bc54f57f5eeb1e19c9d17ddd8fe9f7119fcf9d646df3d5263&=&format=webp" alt="Avatar" class="feedback-avatar">
+        <div>
+          <span class="feedback-name">@livinglife</span>
+          <span class="feedback-role">Starz User</span>
+        </div>
+      </div>
+      <p class="feedback-text">“Fácil de usar, rápido y sin complicaciones. Ideal para cualquier server”</p>
+    </div>
+    <div class="feedback-card">
+      <div class="feedback-user">
+        <img src="https://media.discordapp.net/attachments/1361467733614792805/1395196764151091270/e91fcd6ce4bf51047903101ade89e5b7.jpg?ex=687991be&is=6878403e&hm=7e0a2cc615b9ff097340f4f5af2988eb93a6163e9af353feff0672a3120b8175&=&format=webp" alt="Avatar" class="feedback-avatar">
+        <div>
+          <span class="feedback-name">@fuckthat</span>
+          <span class="feedback-role">Starz User</span>
+        </div>
+      </div>
+      <p class="feedback-text">“Muy completo y no se me complico ya que me lo instalo xanax al toque.”</p>
+    </div>
+  </div>
+</section>
+<!-- Team -->
+<section class="team" id="team">
+    <h2>Get to Know the Starz Bot Team</h2>
+    <div class="team-cards">
+        <div class="team-member">
+            <img src="https://media.discordapp.net/attachments/933858923692318730/1394841630007361696/6553ce42f90d0c8d12c7a1ac8c2569c8.jpg?ex=687846ff&is=6876f57f&hm=bd5d68474acf64bafe7c45cf90065516670d95df30159d658a14ebdfa7859ccc&=&format=webp&width=961&height=960" class="avatar-bg" alt="Fondo borroso">
+            <img src="https://media.discordapp.net/attachments/933858923692318730/1394841630007361696/6553ce42f90d0c8d12c7a1ac8c2569c8.jpg?ex=687846ff&is=6876f57f&hm=bd5d68474acf64bafe7c45cf90065516670d95df30159d658a14ebdfa7859ccc&=&format=webp&width=961&height=960" alt="Avatar Alee" class="avatar">
+            <h3>xanax</h3>
+            <p>@fuckthexanax</p>
+            <a href="https://discord.com/users/753264072614608968" class="btn contact" target="_blank">Contact me</a>
+        </div>
+        <div class="team-member">
+            <img src="https://media.discordapp.net/attachments/933858923692318730/1394839303506497658/546d1f340e31c71c2f60421b988f26dc.jpg?ex=687844d4&is=6876f354&hm=994b82f67d6bfa37734d15e0e2f7bafa0e4de1da458a7482135f5393bf3bacbe&=&format=webp&width=774&height=960" class="avatar-bg" alt="Fondo borroso">
+            <img src="https://media.discordapp.net/attachments/933858923692318730/1394839303506497658/546d1f340e31c71c2f60421b988f26dc.jpg?ex=687844d4&is=6876f354&hm=994b82f67d6bfa37734d15e0e2f7bafa0e4de1da458a7482135f5393bf3bacbe&=&format=webp&width=774&height=960" alt="Avatar Nordic" class="avatar">
+            <h3>sanntilua</h3>
+            <p>@sanntilua</p>
+            <a href="https://discord.com/users/557257510470287360" class="btn contact" target="_blank">Contact me</a>
+        </div>
+    </div>
+
+<section id="precios" class="pricing">
+    <h2><span class="highlight">Plans & Pricing</span></h2>
+    <p class="sub-text">Choose a plan that meets your community’s needs and advances Starz’s development.</p>
+
+    <div class="currency-toggle">
+        <label class="switch">
+            <input type="checkbox" id="currencySwitch">
+            <span class="slider"></span>
+        </label>
+        <span id="currencyLabel">Show in USD</span>
+    </div>
+
+    <div class="pricing-cards">
+<!-- Monthly -->
+<div class="pricing-card recommended">
+    <div class="badge">RECOMMENDED</div>
+    <h3>Monthly Plan</h3>
+    <p class="price" data-ars="ARS 10,000" data-usd="$15.00">ARS 10,000</p>
+    <p class="description">Consistent support and long-term value</p>
+    <ul>
+        <li>❤️ Full bot access</li>
+        <li>❤️ Priority Discord support</li>
+        <li>❤️ Support development</li>
+        <li>❤️ Exclusive features</li>
+    </ul>
+    <a href="#" class="btn primary">Choose Monthly</a>
+</div>
+
+<!-- Quarterly -->
+<div class="pricing-card">
+    <h3>Quarterly Plan</h3>
+    <p class="price" data-ars="ARS 27,000" data-usd="$35.00">ARS 27,000</p>
+    <p class="description">Prolonged support and exclusive discounts.</p>
+    <ul>
+        <li>❤️ Full bot access</li>
+        <li>❤️ Priority Discord support</li>
+        <li>❤️ Support development</li>
+        <li>❤️ Ongoing updates</li>
+    </ul>
+    <a href="#" class="btn secondary">Choose Quarterly</a>
+</div>
+
+<!-- Lifetime -->
+<div class="pricing-card">
+    <h3>Lifetime Plan</h3>
+    <p class="price" data-ars="ARS 90,000" data-usd="$120.00">ARS 90,000</p>
+    <p class="description">Stand with Starz as a long-term supporter.</p>
+    <ul>
+        <li>❤️ Full bot access</li>
+        <li>❤️ Top-tier support</li>
+        <li>❤️ Lifetime benefits</li>
+        <li>❤️ Discord VIP role</li>
+    </ul>
+    <a href="#" class="btn secondary">Choose Lifetime</a>
+</div>
+
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Ready to boost your community?</h2>
+    <p>Kick off with Starz and streamline your server management now.</p>
+    <div class="btn-container">
+        <a href="https://discord.com/oauth2/authorize?client_id=1361466527836147902&permissions=8&integration_type=0&scope=bot+applications.commands" class="btn primary" target="_blank">❤️ Invite Starz</a>
+        <a href="https://discord.gg/rPrfsnx5at" class="btn secondary" target="_blank">💬 Get support</a>
+    </div>
+</section>
+
+<div class="bubble" id="bubble-partner">
+    <span class="emoji">❤️</span>
+    <span>Seeking partners? <a href="https://discord.gg/rPrfsnx5at" target="_blank">Join our Discord</a> and get in touch</span>
+    <button class="close-btn" onclick="document.getElementById('bubble-partner').style.display='none'">×</button>
+</div>
+
+  </div>
+<footer class="footer-minimal">
+  <div class="footer-minimal-row">
+    <span class="footer-minimal-title">&copy; 2025 Starz Bot</span>
+    <span class="footer-minimal-sep">·</span>
+    <span class="footer-minimal-made">Made with <span class="footer-minimal-heart">❤</span> by Starz Team</span>
+    <span class="footer-minimal-sep">·</span>
+    <a href="https://discord.gg/rPrfsnx5at" target="_blank" class="footer-minimal-link">Discord</a>
+  </div>
+</footer>
+<style>
+.footer-minimal {
+  background: transparent;
+  border-top: 1px solid #23232b;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  padding: 0;
+  margin-top: auto;
+}
+.footer-minimal-row {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.04em;
+  color: #bdbdbd;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  padding: 18px 0 14px 0;
+}
+.footer-minimal-title {
+  font-weight: 500;
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: 0.01em;
+}
+.footer-minimal-made {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #bdbdbd;
+  font-size: 1em;
+  font-weight: 400;
+}
+.footer-minimal-heart {
+  color: #ff3b3b;
+  font-size: 1.1em;
+  animation: pulseHeartRed 1.2s infinite alternate;
+  filter: drop-shadow(0 0 4px #ff3b3b88);
+  margin: 0 2px;
+}
+.footer-minimal-link {
+  color: #ff3b3b;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.2s;
+  padding: 0 2px;
+}
+.footer-minimal-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-minimal-sep {
+  color: #444;
+  font-size: 1.1em;
+  font-weight: 400;
+  user-select: none;
+}
+@keyframes pulseHeartRed {
+  0% { transform: scale(1); filter:drop-shadow(0 0 2px #ff3b3b33); }
+  100% { transform: scale(1.15); filter:drop-shadow(0 0 8px #ff3b3b99); }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#main-content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* Feedback Section Styles */
+.feedback-section {
+  margin: 0 auto 60px auto;
+  max-width: 950px;
+  padding: 0 20px;
+  text-align: center;
+  animation: fadeIn 1.2s cubic-bezier(.4,0,.2,1);
+}
+.feedback-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 36px;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 12px #a7292944;
+}
+.feedback-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+.feedback-card {
+  background: rgba(30,30,36,0.92);
+  border: 1.5px solid #23232b;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 #a7292912, 0 1px 8px #ffcdcd22;
+  padding: 28px 28px 22px 28px;
+  max-width: 320px;
+  min-width: 260px;
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.18s cubic-bezier(.4,0,.2,1), box-shadow 0.18s;
+  position: relative;
+}
+.feedback-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px #a7292933, 0 2px 12px #ffcdcd44;
+}
+.feedback-user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.feedback-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff3b3b;
+  box-shadow: 0 2px 8px #a7292922;
+}
+.feedback-name {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.08em;
+  display: block;
+}
+.feedback-role {
+  color: #ff3b3b;
+  font-size: 0.98em;
+  font-weight: 500;
+  display: block;
+}
+.feedback-text {
+  color: #cccccc;
+  font-size: 1.13em;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 900px) {
+  .feedback-cards {
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+  }
+  .feedback-card {
+    max-width: 98vw;
+    min-width: 0;
+    width: 100%;
+  }
+}
+</style>
+</body>
+<script src="scripts.js"></script>
+</html>
